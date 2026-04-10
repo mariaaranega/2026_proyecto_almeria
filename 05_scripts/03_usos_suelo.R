@@ -32,6 +32,7 @@ for (i in 1:length(capas_suelo)) {
 
 
 
+# NO -------------------------------------------------------------------------------
 # Función para procesar un año
 calcular_cobertura <- function(ruta_capa) {# Cargar uso de suelo del año actual
   suelo_año <- st_read(ruta_capa) %>% st_make_valid()
